@@ -24,7 +24,9 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://tiles.nst.guide/openmaptiles/tile.json"
+      "tiles": ["https://mbtiles.nst.guide/services/openmaptiles/us/tiles/{z}/{x}/{y}.pbf"],
+      "minzoom": 0,
+      "maxzoom": 14 
     }
   },
   "sprite": "https://raw.githubusercontent.com/kylebarron/fiord-color-gl-style/master/sprite/fiord-color-gl-style",
