@@ -24,7 +24,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key={key}"
+      "url": "https://tiles.nst.guide/openmaptiles/tile.json"
     }
   },
   "sprite": "https://raw.githubusercontent.com/kylebarron/fiord-color-gl-style/master/sprite/fiord-color-gl-style",
@@ -600,7 +600,7 @@
         "symbol-placement": "line",
         "symbol-spacing": 350,
         "text-field": "{name:latin} {name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-max-angle": 30,
         "text-pitch-alignment": "viewport",
         "text-rotation-alignment": "map",
@@ -632,7 +632,7 @@
         "symbol-placement": "line",
         "symbol-spacing": 350,
         "text-field": "{ref}",
-        "text-font": ["Metropolis Light", "Noto Sans Regular"],
+        "text-font": ["Metropolis Light"],
         "text-pitch-alignment": "viewport",
         "text-rotation-alignment": "viewport",
         "text-size": 10,
@@ -714,7 +714,7 @@
       "layout": {
         "text-anchor": "center",
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-justify": "center",
         "text-offset": [0.5, 0],
         "text-size": 10,
@@ -740,7 +740,7 @@
       "layout": {
         "text-anchor": "center",
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-justify": "center",
         "text-offset": [0.5, 0],
         "text-size": 10,
@@ -766,7 +766,7 @@
         "icon-size": 0.4,
         "text-anchor": "left",
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-justify": "left",
         "text-offset": [0.5, 0.2],
         "text-size": 10,
@@ -794,7 +794,7 @@
         "icon-size": 0.4,
         "text-anchor": {"base": 1, "stops": [[0, "left"], [8, "center"]]},
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-justify": "left",
         "text-offset": [0.5, 0.2],
         "text-size": 10,
@@ -825,7 +825,7 @@
         "icon-size": 0.4,
         "text-anchor": {"base": 1, "stops": [[0, "left"], [8, "center"]]},
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-justify": "left",
         "text-offset": [0.5, 0.2],
         "text-size": 10,
@@ -856,7 +856,7 @@
         "icon-size": 0.4,
         "text-anchor": {"base": 1, "stops": [[0, "left"], [8, "center"]]},
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-justify": "left",
         "text-offset": [0.5, 0.2],
         "text-size": 14,
@@ -881,7 +881,7 @@
       "filter": ["all", ["==", "$type", "Point"], ["==", "class", "state"]],
       "layout": {
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-size": 10,
         "text-transform": "uppercase",
         "visibility": "visible"
@@ -939,7 +939,7 @@
       ],
       "layout": {
         "text-field": "{name:latin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-size": {"base": 1, "stops": [[0, 10], [6, 12]]},
         "text-transform": "uppercase",
         "visibility": "visible"
@@ -971,7 +971,7 @@
       "layout": {
         "text-anchor": "center",
         "text-field": "{name:latin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-size": {"base": 1.4, "stops": [[0, 10], [3, 12], [4, 14]]},
         "text-transform": "uppercase",
         "visibility": "visible"
@@ -997,7 +997,7 @@
       "layout": {
         "text-anchor": "center",
         "text-field": "{name:latin}",
-        "text-font": ["Metropolis Regular", "Noto Sans Regular"],
+        "text-font": ["Metropolis Regular"],
         "text-size": {"base": 1.4, "stops": [[0, 10], [3, 12], [4, 14]]},
         "text-transform": "uppercase",
         "visibility": "visible"
