@@ -26,7 +26,7 @@
       "type": "vector",
       "tiles": ["https://mbtiles.nst.guide/services/openmaptiles/us/tiles/{z}/{x}/{y}.pbf"],
       "minzoom": 0,
-      "maxzoom": 14 
+      "maxzoom": 14
     }
   },
   "sprite": "https://raw.githubusercontent.com/kylebarron/fiord-color-gl-style/master/sprite/fiord-color-gl-style",
@@ -127,7 +127,7 @@
         "symbol-placement": "line",
         "symbol-spacing": 500,
         "text-field": "{name:latin}\n{name:nonlatin}",
-        "text-font": ["Metropolis Medium Italic", "Noto Sans Italic"],
+        "text-font": ["Metropolis Medium Italic"],
         "text-rotation-alignment": "map",
         "text-size": 12,
         "visibility": "visible"
@@ -910,7 +910,7 @@
       ],
       "layout": {
         "text-field": "{name:latin}",
-        "text-font": ["Metropolis Light Italic", "Noto Sans Italic"],
+        "text-font": ["Metropolis Light Italic"],
         "text-size": {"base": 1, "stops": [[0, 9], [6, 11]]},
         "text-transform": "uppercase",
         "visibility": "visible"
