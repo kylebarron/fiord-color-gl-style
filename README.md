@@ -4,6 +4,19 @@
 A basemap style useful with fiord color ideal as background map for data visualizations. It is using the vector tile
 schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
+## Fork updates
+
+### Hosted sprite
+
+The sprites are also hosted from this repository.
+
+To make the sprite:
+
+1. Install spritezero-cli: `npm install -g @mapbox/spritezero-cli`
+2. Make the `sprite` dir: `mkdir -p sprite && cd sprite`
+3. Generate the low resolution sprite: `spritezero fiord-color-gl-style ../icons/`
+4. Generate the high resolution sprite: `spritezero --retina fiord-color-gl-style@2x ../icons/`
+
 ## Preview
 
 **[:globe_with_meridians: Browse the map](https://openmaptiles.github.io/fiord-color-gl-style/)**

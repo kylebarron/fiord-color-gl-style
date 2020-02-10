@@ -27,8 +27,8 @@
       "url": "https://api.maptiler.com/tiles/v3/tiles.json?key={key}"
     }
   },
-  "sprite": "https://openmaptiles.github.io/fiord-color-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "sprite": "https://raw.githubusercontent.com/kylebarron/fiord-color-gl-style/master/sprite/fiord-color-gl-style",
+  "glyphs": "https://raw.githubusercontent.com/kylebarron/openmaptiles-fonts/master/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
