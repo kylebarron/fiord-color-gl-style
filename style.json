@@ -24,10 +24,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "tiles": ["https://mbtiles.nst.guide/services/openmaptiles/us/tiles/{z}/{x}/{y}.pbf"],
-      "minzoom": 0,
-      "maxzoom": 14,
-      "attribution": "<a href=\"https://openmaptiles.org/\" target=\"_blank\">© OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">© OpenStreetMap contributors</a>"
+      "url": "https://mbtiles.nst.guide/services/openmaptiles/us"
     }
   },
   "sprite": "https://raw.githubusercontent.com/kylebarron/fiord-color-gl-style/master/sprite/fiord-color-gl-style",
