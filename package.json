@@ -1,0 +1,37 @@
+{
+  "name": "fiord-color-gl-style",
+  "version": "0.1.0",
+  "description": "A dark blue GL style based on Positron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "for file in style*.json; do ./node_modules/.bin/gl-style-validate $file; done",
+    "diff": "for file in style*.json; do bash -c 'diff <(./node_modules/.bin/gl-style-format $file) $file'; done",
+    "format": "for file in style*.json; do ./node_modules/.bin/gl-style-format $file | ./node_modules/.bin/sponge $file; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nst-guide/osm-liberty-topo.git"
+  },
+  "keywords": [
+    "maps",
+    "cartography",
+    "mapbox-gl",
+    "mapbox-gl-js"
+  ],
+  "author": "Kyle Barron",
+  "bugs": {
+    "url": "https://github.com/nst-guide/osm-liberty-topo/issues"
+  },
+  "homepage": "https://github.com/nst-guide/osm-liberty-topo#readme",
+  "devDependencies": {
+    "@mapbox/mapbox-gl-style-spec": "^13.10.2",
+    "husky": "^4.0.7",
+    "sponge": "^0.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "for file in $(git diff --name-only --cached | grep 'style'); do ./node_modules/.bin/gl-style-validate $file && ./node_modules/.bin/gl-style-format $file | ./node_modules/.bin/sponge $file && git add $file; done;"
+    }
+  }
+}
