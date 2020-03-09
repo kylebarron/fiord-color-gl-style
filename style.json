@@ -27,8 +27,8 @@
       "url": "https://mbtiles.nst.guide/services/openmaptiles/us"
     }
   },
-  "sprite": "https://raw.githubusercontent.com/kylebarron/fiord-color-gl-style/master/sprite/fiord-color-gl-style",
-  "glyphs": "https://raw.githubusercontent.com/kylebarron/openmaptiles-fonts/master/fonts/{fontstack}/{range}.pbf",
+  "sprite": "https://cdn.jsdelivr.net/gh/kylebarron/fiord-color-gl-style/sprite/fiord-color-gl-style",
+  "glyphs": "https://cdn.jsdelivr.net/gh/kylebarron/openmaptiles-fonts/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
